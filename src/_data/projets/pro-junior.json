@@ -5,6 +5,7 @@
     "Laurent Dietrich (eBike for Youth) au bénéfice de Pro Junior Fribourg & La Main Tendue"
   ],
   "thumbnail": "/public/images/Project_Pro-junior_06.webp",
+  "order": 11,
   "title": "Pro Junior",
   "images": [
     {
@@ -27,9 +28,8 @@
   ],
   "links": [],
   "id": "pro-junior",
-  "description": "Ce projet accompagne un périple de 12 500 km à vélo électrique, reliant Madrid à la Suisse, pour collecter 50 000 CHF au profit de Pro Junior Fribourg et La Main Tendue. Au-delà du défi sportif, l’initiative vise à briser l’isolement des jeunes de 16 à 25 ans et à financer des aides concrètes contre les dettes et la précarité. La mission de communication consiste à construire une narration transmédia (site web, réseaux sociaux, bible de marque) qui documente le voyage, met en lumière les témoignages recueillis et transforme l’aventure individuelle en un levier de mobilisation collective et intergénérationnelle.",
+  "description": "Réalisation de trois portraits d’étudiants bénéficiant d’un soutien de Pro-Junior, dans le domaine du sport et de la culture. Un duo de stagiaires de eikonlab suit à tour de rôle trois ateliers et réalisent une mini documentation destinée aux réseaux sociaux. Ces portraits sont produit en parallèle de l’initiative « e-bike for youth » initié en mai 2026 par Laurent Dietrich dans le but d’une levée de fonds pour Pro-Junior et l’association 143.ch.",
   "sessions": [
     "Printemps 2026"
-  ],
-  "order": 11
+  ]
 }
