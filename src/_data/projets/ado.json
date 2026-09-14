@@ -5,18 +5,15 @@
     "Association AdO (Prévention et réduction des risques en milieu festif)"
   ],
   "thumbnail": "/public/images/Project_AdO_05.webp",
+  "order": 10,
   "title": "AdO",
   "images": [
-    {
-      "fichier": "/public/images/Project_AdO_02.webp",
-      "legend": "Brainstorming"
-    },
     {
       "fichier": "/public/images/Project_AdO_04.webp",
       "legend": "Plusieurs essaye pour le post Instagram de AdO"
     },
     {
-      "fichier": "/public/images/Project_AdO.webp",
+      "fichier": "/public/images/Project_AdO_01.webp",
       "legend": "Lancement du workshop pour l’association ADO avec la session “Printemps 2026”. Fribourg, avril 2026.  "
     },
     {
@@ -28,11 +25,7 @@
       "legend": "Finalisation des post Instagram pour Ado"
     }
   ],
-  "tags": [
-    "Communication visuelle",
-    "milieu festif",
-    "pair-aidance"
-  ],
+  "tags": ["Communication visuelle", "milieu festif", "pair-aidance"],
   "links": [
     {
       "label": "Site de l'association",
@@ -41,8 +34,5 @@
   ],
   "id": "ado",
   "description": "Mandaté par l’Association AdO pour transformer sa perception auprès des 14-25 ans, eikonlab a réfléchi à une campagne visant à positionner l’association comme une « safe place » incontournable en milieu festif. Le projet combine un audit des élèves de première année et un workshop créatif pour développer une stratégie sans jugement ni moralisation. Les livrables incluent une identité visuelle adaptée, des formats vidéo dynamiques (motion design, reels) et des outils de signalétique événementielle,  tous conçus pour promouvoir l’écoute active, la confidentialité et la réduction des risques par une approche « par les pairs ».",
-  "sessions": [
-    "Printemps 2026"
-  ],
-  "order": 10
+  "sessions": ["Printemps 2026"]
 }
