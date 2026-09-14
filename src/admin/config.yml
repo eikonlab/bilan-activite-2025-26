@@ -191,7 +191,7 @@ collections:
               label: Fichier,
               name: fichier,
               widget: file,
-              hint: "Image (webp, jpg, png) ou vidéo MP4.",
+              hint: "Image (webp, jpg, png). Pour une vidéo MP4, déposer le fichier dans src/public/videos/ (pas dans images/, le CMS local ne peut pas lister les gros fichiers).",
             }
           - { label: Légende, name: legend, widget: string, required: false }
       - label: Client·e·s
