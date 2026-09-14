@@ -9,7 +9,7 @@
 
 import markdownIt from "markdown-it";
 
-const md = markdownIt({ html: true });
+const md = markdownIt({ html: true, breaks: true });
 
 export default function (eleventyConfig) {
   // --- Fichiers copiés tels quels dans le build ---
@@ -28,6 +28,8 @@ export default function (eleventyConfig) {
   // --- Filtre markdown ---
   // Convertit du texte Markdown (produit par widget: markdown dans le CMS)
   // en HTML. Utilisation dans les templates : {{ champ | markdown | safe }}
+  // `breaks: true` transforme un retour à la ligne simple en <br>
+  // (Entrée dans le champ description d’un projet).
   // Le filtre | safe est nécessaire pour que Nunjucks n'échappe pas le HTML généré.
   eleventyConfig.addFilter("markdown", (content) => md.render(content ?? ""));
 

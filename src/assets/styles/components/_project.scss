@@ -173,6 +173,10 @@
 
   &-description-content {
     grid-column: 1 / 5;
+
+    p + p {
+      margin-top: 1em;
+    }
   }
 
   &-description-legend {
