@@ -5,6 +5,7 @@
     "eikonlab, Fribourg"
   ],
   "thumbnail": "/public/images/Project_Bilan_01.webp",
+  "order": 14,
   "title": "Bilan d’activités",
   "images": [
     {
@@ -35,10 +36,9 @@
   ],
   "links": [],
   "id": "bilan-dactivites",
-  "description": "Le présent bilan d’activités offre une opportunité de réflexion sur la mise en page et la distribution de contenus. Elle reflète non seulement le contenu du travail accompli, mais aussi les compétences en design, en hiérarchisation de l’information et en communication visuelle. Un document bien structuré, clair et esthétique permet de capter l’attention du lecteur, de valoriser les projets réalisés et de démontrer une maîtrise concrète des outils et principes du design interactif. C’est aussi l’occasion de montrer sa sensibilité graphique et sa capacité à adapter une mise en page à un contexte professionnel, tout en facilitant la lecture et la compréhension du bilan. Cette année, le choix s’est porté sur un bilan online, permettant de mettre en oeuvre l’ensemble des compétences des élèves IMD.",
+  "description": "Pour la première fois le bilan d’activité de eikonlab est conçu pour être publié en ligne, , permettant de mettre en oeuvre l’ensemble des compétences des élèves IMD. Une équipe de trois stagiaires avaient une carte planche, de la conception à la réalisation.",
   "sessions": [
     "Hiver 2026",
     "Printemps 2026"
-  ],
-  "order": 14
+  ]
 }
