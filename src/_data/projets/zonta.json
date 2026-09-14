@@ -43,5 +43,6 @@
   "description": "Conçu par les apprentis de l'eikon, en collaboration avec les clubs services féminins Zonta et Soroptimist, un sapin porte-parole a marqué la Journée internationale pour l’élimination de la violence à l’égard des femmes et le début des \"Orange Days\".\nDes sapins ont été installés dans plusieurs endroits en Suisse romande, notamment à la gare de Fribourg, pour recueillir des messages d'espoir et briser le silence. Les passants sont invités à scanner un QR code et à laisser un mot de soutien, une pensée ou une inspiration pour les victimes. Après avoir passé le test de la médiation, les messages défilent sur un écran.",
   "sessions": [
     "Automne 2025"
-  ]
+  ],
+  "order": 2
 }

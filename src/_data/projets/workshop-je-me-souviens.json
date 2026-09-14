@@ -35,5 +35,6 @@
   "description": "Film d’animation de Miguel Bechet. \nAfin d’accompagner la présentation du court-métrage « Je me souviens » dans différents contextes (festivals, rencontres dans les écoles, associations, etc.), les stagiaires sont mandaté.e.s pour réaliser trois interviews de personnes à l’origine du projet : le réalisateur Miguel Béchet, Flavie qui est à l’origine de l’histoire relatée par le court-métrage et la psychologue Sandra Tu Quoc.\nLes stagiaires doivent scénariser et réaliser les interviews en tenant compte de l’univers visuel du film qui aborde le sujet de la violence domestique.",
   "sessions": [
     "Automne 2025"
-  ]
+  ],
+  "order": 6
 }

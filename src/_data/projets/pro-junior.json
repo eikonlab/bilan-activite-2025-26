@@ -30,5 +30,6 @@
   "description": "Ce projet accompagne un périple de 12 500 km à vélo électrique, reliant Madrid à la Suisse, pour collecter 50 000 CHF au profit de Pro Junior Fribourg et La Main Tendue. Au-delà du défi sportif, l’initiative vise à briser l’isolement des jeunes de 16 à 25 ans et à financer des aides concrètes contre les dettes et la précarité. La mission de communication consiste à construire une narration transmédia (site web, réseaux sociaux, bible de marque) qui documente le voyage, met en lumière les témoignages recueillis et transforme l’aventure individuelle en un levier de mobilisation collective et intergénérationnelle.",
   "sessions": [
     "Printemps 2026"
-  ]
+  ],
+  "order": 11
 }

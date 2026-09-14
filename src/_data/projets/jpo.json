@@ -1,7 +1,9 @@
 {
   "skills": "Scénographie, communication visuelle. Organisation événementielle. Gestion humaine. ",
   "mandate": "Évènementiel, communication, organisation, arts numériques.",
-  "clients": ["eikon, Fribourg"],
+  "clients": [
+    "eikon, Fribourg"
+  ],
   "thumbnail": "/public/images/Project_JPO_sceno_04.webp",
   "title": "JPO",
   "images": [
@@ -18,7 +20,11 @@
       "legend": "Annonce TPF animée pour les Journées Portes Ouvertes 2025"
     }
   ],
-  "tags": ["Événementiel", "Communication", "Arts numériques"],
+  "tags": [
+    "Événementiel",
+    "Communication",
+    "Arts numériques"
+  ],
   "links": [
     {
       "label": "eikon",
@@ -27,5 +33,8 @@
   ],
   "id": "jpo",
   "description": "Jusqu’à l’édition 2025, eikonlab a pris en charge la conception et l’organisation des Journées Portes Ouvertes. La scénographie s’est développée autour des productions des élèves, avec différents éléments de mobiliers et une signalétique conçus pour ces journées. L’objectif est d’offrir un parcours de découverte de l’école, qui se dévoile à travers une diversité de formats et de supports : installations, projections, travaux préparatoires, supports de communication, dispositifs interactifs, etc.",
-  "sessions": ["Automne 2025"]
+  "sessions": [
+    "Automne 2025"
+  ],
+  "order": 15
 }

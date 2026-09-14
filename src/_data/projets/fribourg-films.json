@@ -1,7 +1,9 @@
 {
   "skills": "Écriture humoristique, réalisation multi-formats, direction artistique, stratégie de contenu sériel, adaptation réseaux sociaux.",
   "mandate": "Réalisation de sketchs vidéo",
-  "clients": ["Fribourg Films"],
+  "clients": [
+    "Fribourg Films"
+  ],
   "thumbnail": "/public/images/Project_Fri-Film_03.webp",
   "title": "Fribourg Films",
   "images": [
@@ -18,7 +20,11 @@
       "legend": "Stagiaires en préparation pour le tournage d'une scène en basse ville de Fribourg"
     }
   ],
-  "tags": ["Promotion", "Sérieweb", "Bande-annonce"],
+  "tags": [
+    "Promotion",
+    "Sérieweb",
+    "Bande-annonce"
+  ],
   "links": [
     {
       "label": "Fribourg Films",
@@ -27,5 +33,9 @@
   ],
   "id": "fribourg-films",
   "description": "Fribourg Films ambitionne de positionner le canton de Fribourg comme une destination privilégiée pour les tournages de films, courts-métrages et projets audiovisuels en Suisse. S’adressant principalement aux sociétés de production, réalisateurs et créatifs de tous les cantons, ce projet souhaite marque les esprits par une tonalitée décalée, tout en démontrant sérieusement les atouts logistiques, visuels et humains de la région fribourgeoise.\nLe concept prévoit la réalisation d’un film principal en format horizontal, complété par des déclinaisons verticales optimisées pour les réseaux sociaux (Instagram Reels, etc.). Cette stratégie de contenu pourrait s’étendre à une série d’épisodes courts, chacun explorant un aspect spécifique de Fribourg : diversité des décors, accessibilité, soutien local et ambiances uniques. L’objectif est double : créer une identité visuelle forte, et fournir des arguments concrets pour convaincre les professionnels de l’audiovisuel de choisir Fribourg pour leurs prochaines productions.",
-  "sessions": ["Hiver 2026", "Printemps 2026"]
+  "sessions": [
+    "Hiver 2026",
+    "Printemps 2026"
+  ],
+  "order": 9
 }

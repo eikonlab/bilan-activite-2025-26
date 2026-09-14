@@ -150,10 +150,19 @@ collections:
     extension: json
     identifier_field: title
     slug: "{{title | slugify}}"
-    summary: "{{title}}"
+    summary: "{{order}}. {{title}}"
     create: true
     fields:
       - { label: Titre du projet, name: title, widget: string }
+      - {
+          label: Ordre d'affichage,
+          name: order,
+          widget: number,
+          value_type: int,
+          min: 1,
+          required: false,
+          hint: "Plus le nombre est petit, plus le projet apparaît haut dans la galerie. Sans numéro, le projet est placé à la fin.",
+        }
       - { label: Image de couverture, name: thumbnail, widget: image }
       - { label: "Description", name: description, widget: text }
       - label: Tags

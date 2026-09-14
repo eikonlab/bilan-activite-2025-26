@@ -13,6 +13,9 @@ import { resolve } from "path";
 // On en profite aussi pour injecter l'id depuis le nom de fichier,
 // ce qui évite de devoir le saisir manuellement dans le CMS :
 //   miam.json → { id: "miam", ... }
+//
+// Le champ optionnel `order` contrôle l'ordre d'affichage (plus petit = plus haut).
+// Les projets sans numéro passent à la fin, puis le titre départage.
 
 export default function () {
   const dir = resolve("./src/_data/projets");
@@ -21,5 +24,11 @@ export default function () {
     .map((f) => {
       const data = JSON.parse(readFileSync(`${dir}/${f}`, "utf-8"));
       return { ...data, id: f.replace(".json", "") };
+    })
+    .sort((a, b) => {
+      const orderA = Number.isFinite(a.order) ? a.order : Infinity;
+      const orderB = Number.isFinite(b.order) ? b.order : Infinity;
+      if (orderA !== orderB) return orderA - orderB;
+      return (a.title || a.id).localeCompare(b.title || b.id, "fr");
     });
 }
