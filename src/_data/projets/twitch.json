@@ -5,6 +5,7 @@
     "eikon, Fribourg"
   ],
   "thumbnail": "/public/images/Project_Twitch_03.webp",
+  "order": 12,
   "title": "Twitch",
   "images": [
     {
@@ -25,6 +26,10 @@
     {
       "label": "Chaine eikon.live",
       "url": "https://www.twitch.tv/eikonlive"
+    },
+    {
+      "label": "eikonlive - Table Ronde - Bilan et impact de l'IA",
+      "url": "https://youtu.be/lzudqzJSYZ8?si=-6Q3iBzPwNUGiS-s"
     }
   ],
   "id": "twitch",
@@ -33,6 +38,5 @@
     "Automne 2025",
     "Hiver 2026",
     "Printemps 2026"
-  ],
-  "order": 12
+  ]
 }
