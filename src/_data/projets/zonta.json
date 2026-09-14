@@ -5,6 +5,7 @@
     "Zonta Clubs Suisse romande"
   ],
   "thumbnail": "/public/images/Project_Zonta_03.webp",
+  "order": 2,
   "title": "Zonta",
   "images": [
     {
@@ -26,6 +27,13 @@
     {
       "fichier": "/public/images/Project_Zonta_05.webp",
       "legend": "Interview RTS de Thérèse Meyer (Zonta) pour le téléjournal du 19:30, avant l’inauguration lors de la Journée internationale pour l'élimination de la violence à l'égard des femmes. Fribourg, novembre 2025"
+    },
+    {
+      "fichier": "/public/images/Project_Zonta_06.webp",
+      "legend": "Extrait des massages reçus durant l’installation, du 25 novembre au 10 décembre 2025"
+    },
+    {
+      "fichier": "/public/images/Project_Zonta_07.mp4"
     }
   ],
   "tags": [
@@ -40,9 +48,8 @@
     }
   ],
   "id": "zonta",
-  "description": "Conçu par les apprentis de l'eikon, en collaboration avec les clubs services féminins Zonta et Soroptimist, un sapin porte-parole a marqué la Journée internationale pour l’élimination de la violence à l’égard des femmes et le début des \"Orange Days\".\nDes sapins ont été installés dans plusieurs endroits en Suisse romande, notamment à la gare de Fribourg, pour recueillir des messages d'espoir et briser le silence. Les passants sont invités à scanner un QR code et à laisser un mot de soutien, une pensée ou une inspiration pour les victimes. Après avoir passé le test de la médiation, les messages défilent sur un écran.",
+  "description": "Pour marquer la Journée internationale pour l’élimination de la violence à l’égard des femmes et le début des \"Orange Days\", les clubs service Zonta et Soroptimist de Fribourg organisent une action commune avec l’Association Victime pas seule qui propose d’installer un sapin porte-paroles dans plusieurs villes de Suisse. eikonlab est mandaté pour designer le sapin et développer un concept d’interaction avec la population. Après avoir déterminé un lieu particulièrement passager (le Hall de la gare de Fribourg), l’option est prise d’une installation interactive grâce à laquelle les passants sont invités à scanner un QR code et à laisser un mot de soutien, une pensée ou une inspiration pour les victimes. Après avoir passé le test de la médiation, les messages défilent sur un écran.",
   "sessions": [
     "Automne 2025"
-  ],
-  "order": 2
+  ]
 }

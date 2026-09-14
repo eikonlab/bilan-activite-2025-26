@@ -33,6 +33,10 @@ export default function (eleventyConfig) {
   // Le filtre | safe est nécessaire pour que Nunjucks n'échappe pas le HTML généré.
   eleventyConfig.addFilter("markdown", (content) => md.render(content ?? ""));
 
+  eleventyConfig.addFilter("isVideo", (src) =>
+    /\.mp4$/i.test((src ?? "").split("?")[0]),
+  );
+
   // --- Filtre JSON pour Nunjucks ---
   // Permet d'utiliser {{ value | tojson }} dans les templates.
   eleventyConfig.addFilter("tojson", (value) => JSON.stringify(value ?? null));

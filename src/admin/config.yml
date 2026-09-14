@@ -181,12 +181,18 @@ collections:
         name: mandate
         widget: string
         required: false
-      - label: Autres images
+      - label: Images et vidéos
         name: images
         widget: list
         required: false
+        summary: "{{legend}}"
         fields:
-          - { label: Image, name: fichier, widget: image }
+          - {
+              label: Fichier,
+              name: fichier,
+              widget: file,
+              hint: "Image (webp, jpg, png) ou vidéo MP4.",
+            }
           - { label: Légende, name: legend, widget: string, required: false }
       - label: Client·e·s
         name: clients
