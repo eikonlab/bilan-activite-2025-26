@@ -5,7 +5,8 @@
     "Faculté EDUFORM",
     "Université de Fribourg (Colloque RUNED 2026)."
   ],
-  "thumbnail": "/public/images/Project_Runed_05.webp",
+  "thumbnail": "/public/images/Project_Runed_03.webp",
+  "order": 1,
   "title": "Runed 26",
   "images": [
     {
@@ -41,6 +42,5 @@
   "sessions": [
     "Hiver 2026",
     "Printemps 2026"
-  ],
-  "order": 1
+  ]
 }
