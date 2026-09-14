@@ -119,7 +119,7 @@ export function initHeroGrid() {
   // fermeture au clic sur un lien du hero (contact, sessions, etc.)
   // ==========================================================================
 
-  heroGrid.querySelectorAll("a.hero-grid-cell").forEach((link) => {
+  heroGrid.querySelectorAll("a.hero-grid-cell, .hero-grid-cell a").forEach((link) => {
     link.addEventListener("click", () => {
       closeAll();
     });

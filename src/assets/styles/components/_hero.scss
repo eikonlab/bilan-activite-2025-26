@@ -163,8 +163,7 @@
     &-portfolio,
     &-edito,
     &-priorites,
-    &-encadrants,
-    &-partenaires {
+    &-encadrants {
       background: $color-secondary;
       transition: color 0.2s ease-in-out;
       &:hover {
@@ -249,7 +248,8 @@
         text-align: right;
       }
     }
-    &-sessions {
+    &-sessions,
+    &-partenaires {
       height: 100%;
       a {
         display: flex;
@@ -266,6 +266,10 @@
           background-color: $color-secondary;
         }
       }
+    }
+
+    &-partenaires {
+      background: $color-secondary;
     }
   }
 
