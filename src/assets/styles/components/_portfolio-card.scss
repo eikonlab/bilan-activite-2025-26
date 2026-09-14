@@ -25,13 +25,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   padding: $space-md;
+  padding-bottom: calc(#{$space-md} + 1.25rem);
   cursor: default;
 
   p {
     color: $color-primary;
     font-style: $font-style-legend;
   }
+}
+
+.portfolio-quote-legend {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 9px;
+  text-align: right;
+  font-size: 0.5rem;
+  font-weight: $font-weight-legend;
+  font-style: $font-style-legend;
+  line-height: $font-line-height-legend;
+  color: $color-primary;
 }
 
 .portfolio-legend {
@@ -349,11 +365,11 @@ button.portfolio-close-modal:hover {
 }
 
 .portfolio-card-pos[data-portfolio-pos="31"] {
-  grid-area: img26;
+  grid-area: quo6;
 }
 
 .portfolio-card-pos[data-portfolio-pos="32"] {
-  grid-area: quo6;
+  grid-area: img26;
 }
 
 @media (max-width: 768px) {

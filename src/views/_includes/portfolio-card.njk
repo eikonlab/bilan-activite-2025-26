@@ -17,6 +17,9 @@
   {% elif item.quote %}
     <figure class="portfolio-card-text split-text-container">
       <p class="split-text">{{ item.quote }}</p>
+      {% if item.legend %}
+        <figcaption class="portfolio-quote-legend">{{ item.legend }}</figcaption>
+      {% endif %}
     </figure>
   {% endif %}
 </article>

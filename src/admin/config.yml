@@ -55,6 +55,13 @@ collections:
                   required: false,
                   hint: "Option B — Remplir uniquement si l'entrée est une phrase/citation (pas les deux).",
                 }
+              - {
+                  label: Légende de la citation,
+                  name: legend,
+                  widget: string,
+                  required: false,
+                  hint: "Affichée sous la citation. Ex. témoignage, stagiaire 25-26.",
+                }
           - label: Partenaires
             name: partners
             summary: "{{title}}"
