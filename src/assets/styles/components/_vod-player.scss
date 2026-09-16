@@ -1,0 +1,248 @@
+@use "../variables" as *;
+
+// ============================================================
+// Player VOD Infomaniak (HLS adaptatif)
+// ============================================================
+
+.vod-player {
+  grid-column: 1 / -1;
+  grid-row: span 4;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  background: $color-primary;
+  overflow: hidden;
+  outline: none;
+
+  &__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+  }
+
+  &__icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__play {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 64px;
+    height: 64px;
+    border: 0;
+    border-radius: 0;
+    background: $color-accent;
+    color: $color-primary;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition:
+      opacity 0.2s ease,
+      color 0.2s ease,
+      background-color 0.2s ease;
+    z-index: 2;
+
+    .vod-player__icon {
+      width: 28px;
+      height: 28px;
+      margin-left: 3px;
+    }
+
+    &:hover {
+      background: $color-secondary;
+      color: $color-primary;
+    }
+  }
+
+  &__controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: $space-xs;
+    padding: $space-xs $space-sm;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.72));
+    opacity: 0;
+    transform: translateY(4px);
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+    z-index: 2;
+  }
+
+  &:hover &__controls,
+  &:focus-within &__controls,
+  &.is-paused &__controls {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &.is-playing &__play {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &__btn {
+    flex: 0 0 auto;
+    width: 28px;
+    height: 28px;
+    border: 0;
+    padding: 4px;
+    background: transparent;
+    color: $color-secondary;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition: color 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+      color: $color-accent;
+    }
+  }
+
+  &__time {
+    flex: 0 0 auto;
+    font-size: 0.55rem;
+    font-weight: $font-weight-text;
+    font-style: normal;
+    color: $color-secondary;
+    white-space: nowrap;
+  }
+
+  &__seek {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 3px;
+    appearance: none;
+    border-radius: 0;
+    cursor: pointer;
+    background: linear-gradient(
+      to right,
+      #{$color-accent} 0%,
+      #{$color-accent} var(--seek-progress, 0%),
+      rgba(255, 255, 255, 0.35) var(--seek-progress, 0%),
+      rgba(255, 255, 255, 0.35) 100%
+    );
+
+    &::-webkit-slider-runnable-track {
+      height: 3px;
+      background: transparent;
+    }
+
+    &::-webkit-slider-thumb {
+      appearance: none;
+      width: 10px;
+      height: 10px;
+      margin-top: -3.5px;
+      background: $color-accent;
+      border: 0;
+      border-radius: 0;
+    }
+
+    &::-moz-range-track {
+      height: 3px;
+      background: rgba(255, 255, 255, 0.35);
+      border: 0;
+    }
+
+    &::-moz-range-progress {
+      height: 3px;
+      background: $color-accent;
+      border: 0;
+    }
+
+    &::-moz-range-thumb {
+      width: 10px;
+      height: 10px;
+      background: $color-accent;
+      border: 0;
+      border-radius: 0;
+    }
+  }
+
+  &__icon-play,
+  &__icon-pause,
+  &__icon-sound,
+  &__icon-mute,
+  &__icon-fs-open,
+  &__icon-fs-close {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  &.is-playing .vod-player__icon-play {
+    display: none;
+  }
+
+  &.is-paused .vod-player__icon-pause,
+  &:not(.is-playing) .vod-player__icon-pause {
+    display: none;
+  }
+
+  &.is-muted .vod-player__icon-sound {
+    display: none;
+  }
+
+  &:not(.is-muted) .vod-player__icon-mute {
+    display: none;
+  }
+
+  // Fermeture masquée par défaut ; affichée en plein écran (classe JS + pseudo CSS)
+  &__icon-fs-close {
+    display: none;
+  }
+
+  &.is-fullscreen .vod-player__icon-fs-open,
+  &:fullscreen .vod-player__icon-fs-open,
+  &:-webkit-full-screen .vod-player__icon-fs-open {
+    display: none;
+  }
+
+  &.is-fullscreen .vod-player__icon-fs-close,
+  &:fullscreen .vod-player__icon-fs-close,
+  &:-webkit-full-screen .vod-player__icon-fs-close {
+    display: grid;
+  }
+
+  &:fullscreen,
+  &:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+
+    .vod-player__video {
+      object-fit: contain;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .vod-player {
+    grid-row: span 6;
+
+    &__play {
+      width: 52px;
+      height: 52px;
+
+      .vod-player__icon {
+        width: 22px;
+        height: 22px;
+      }
+    }
+
+    &__controls {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}

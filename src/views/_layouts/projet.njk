@@ -103,12 +103,93 @@ layout: base.njk
     <section class="projet-page-section-images row">
       {% if projet.images and projet.images.length %}
         {% for media in projet.images %}
-          {% if media.fichier %}
+          {% if media.hls or media.fichier %}
             <figure class="projet-page-images" data-pos="{{ loop.index }}">
-              <img
-                src="{{ media.fichier | url }}"
-                alt="{{ media.legend or '' }}"
-              />
+              {% if media.hls %}
+                <div
+                  class="vod-player"
+                  data-vod-player
+                  data-hls="{{ media.hls }}"
+                  tabindex="0"
+                >
+                  <video
+                    class="vod-player__video"
+                    playsinline
+                    preload="metadata"
+                    {% if media.poster %}poster="{{ media.poster }}"{% endif %}
+                    {% if media.legend %}title="{{ media.legend }}"{% endif %}
+                  ></video>
+                  <button
+                    type="button"
+                    class="vod-player__play"
+                    data-vod-play
+                    aria-label="Lecture"
+                  >
+                    {% include "icons/play.njk" %}
+                  </button>
+                  <div class="vod-player__controls">
+                    <button
+                      type="button"
+                      class="vod-player__btn"
+                      data-vod-toggle
+                      aria-label="Lecture"
+                    >
+                      <span class="vod-player__icon-play">
+                        {% include "icons/play.njk" %}
+                      </span>
+                      <span class="vod-player__icon-pause">
+                        {% include "icons/pause.njk" %}
+                      </span>
+                    </button>
+                    <span class="vod-player__time">
+                      <span data-vod-current>0:00</span>
+                      <span aria-hidden="true"> / </span>
+                      <span data-vod-duration>0:00</span>
+                    </span>
+                    <input
+                      class="vod-player__seek"
+                      type="range"
+                      min="0"
+                      max="0"
+                      value="0"
+                      step="0.1"
+                      data-vod-seek
+                      aria-label="Position"
+                    />
+                    <button
+                      type="button"
+                      class="vod-player__btn"
+                      data-vod-mute
+                      aria-label="Muet"
+                    >
+                      <span class="vod-player__icon-sound">
+                        {% include "icons/volume-on.njk" %}
+                      </span>
+                      <span class="vod-player__icon-mute">
+                        {% include "icons/volume-off.njk" %}
+                      </span>
+                    </button>
+                    <button
+                      type="button"
+                      class="vod-player__btn"
+                      data-vod-fs
+                      aria-label="Plein écran"
+                    >
+                      <span class="vod-player__icon-fs-open">
+                        {% include "icons/open-full-screen.njk" %}
+                      </span>
+                      <span class="vod-player__icon-fs-close">
+                        {% include "icons/close-full-screen.njk" %}
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              {% else %}
+                <img
+                  src="{{ media.fichier | url }}"
+                  alt="{{ media.legend or '' }}"
+                />
+              {% endif %}
               {% if media.legend %}
                 <div class="projet-page-images-caption">
                   <p>{{ media.legend }}</p>

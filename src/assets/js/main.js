@@ -19,6 +19,7 @@ import { initScrollTopButton } from "./modules/scrollTopButton.js";
 import { initTeamExplosion } from "./modules/teamExplosion.js";
 import { initProjectGalleryParallax } from "./modules/projectGalleryParallax.js";
 import { initDvdScreensaver } from "./modules/screensaverDvd.js";
+import { initVodPlayers } from "./modules/vodPlayer.js";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, Draggable, SplitText);
 
@@ -38,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initImagesBatchReveal();
   initScrollTopButton();
   initDoughNavigation();
+  initVodPlayers();
 });
 
 window.addEventListener("load", () => {

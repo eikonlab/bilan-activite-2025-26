@@ -188,13 +188,33 @@ collections:
         name: mandate
         widget: string
         required: false
-      - label: Images
+      - label: Images et vidéos
         name: images
         widget: list
         required: false
-        summary: "{{legend}}"
+        summary: "{{legend}}{{fichier}}{{hls}}"
         fields:
-          - { label: Image, name: fichier, widget: image }
+          - {
+              label: Image,
+              name: fichier,
+              widget: image,
+              required: false,
+              hint: "Option A — image locale. Ne pas remplir si c’est une vidéo VOD.",
+            }
+          - {
+              label: Flux HLS (Infomaniak),
+              name: hls,
+              widget: string,
+              required: false,
+              hint: "Option B — URL du manifest .m3u8 multibitrate Infomaniak.",
+            }
+          - {
+              label: Poster / vignette,
+              name: poster,
+              widget: string,
+              required: false,
+              hint: "URL de la vignette Infomaniak (affiche avant lecture).",
+            }
           - { label: Légende, name: legend, widget: string, required: false }
       - label: Client·e·s
         name: clients

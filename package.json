@@ -9,13 +9,14 @@
     "dev:eleventy": "eleventy --serve",
     "dev:cms": "decap-server",
     "dev:sass": "sass src/assets/styles/main.scss:_site/assets/styles/main.css --watch --no-source-map",
-    "dev:js": "esbuild src/assets/js/main.js --bundle --outdir=_site/assets/js --watch --format=esm",
-    "build": "rm -rf _site && NODE_ENV=production eleventy && sass src/assets/styles/main.scss _site/assets/styles/main.css --no-source-map --style=compressed && esbuild src/assets/js/main.js --bundle --outdir=_site/assets/js --format=esm --minify"
+    "dev:js": "esbuild src/assets/js/main.js --bundle --outdir=_site/assets/js --watch=forever --format=esm --splitting --chunk-names=chunks/[name]-[hash]",
+    "build": "rm -rf _site && NODE_ENV=production eleventy && sass src/assets/styles/main.scss _site/assets/styles/main.css --no-source-map --style=compressed && esbuild src/assets/js/main.js --bundle --outdir=_site/assets/js --format=esm --minify --splitting --chunk-names=chunks/[name]-[hash]"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "decap-cms-app": "^3.12.2",
     "gsap": "^3.15.0",
+    "hls.js": "^1.7.3",
     "markdown-it": "^14.1.1",
     "papaparse": "^5.4.0",
     "sass": "^1.70.0",

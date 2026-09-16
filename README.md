@@ -101,7 +101,7 @@ src/_data/
     └── ...
 ```
 
-Chaque fichier projet contient : titre, sessions, stagiaires associé·es, type de mandat, client·es, description, images, compétences, liens, témoignage client.
+Chaque fichier projet contient : titre, sessions, stagiaires associé·es, type de mandat, client·es, description, images, vidéos VOD Infomaniak, compétences, liens, témoignage client.
 
 `projets.js` lit automatiquement tous les fichiers du dossier `projets/` et les expose comme un tableau dans les templates — son nom de fichier devient l'identifiant URL du projet (`fiff.json` → `/projets/fiff/`).
 
