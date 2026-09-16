@@ -2,8 +2,16 @@
 @use "../layout" as *;
 @use "../base" as *;
 
-body.loading {
+body.loading,
+html.boot-loader-dough,
+html.boot-loader-tetris {
   overflow: hidden;
+}
+
+// Masque le contenu dès le premier paint, avant le JS module
+html.boot-loader-dough #smooth-wrapper,
+html.boot-loader-tetris #smooth-wrapper {
+  visibility: hidden;
 }
 
 .loader {
@@ -13,7 +21,9 @@ body.loading {
   z-index: 9999;
 }
 
-.loader.active {
+.loader.active,
+html.boot-loader-dough .loader-dough,
+html.boot-loader-tetris .loader-tetris {
   display: flex;
 }
 
