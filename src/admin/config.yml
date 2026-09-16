@@ -188,18 +188,13 @@ collections:
         name: mandate
         widget: string
         required: false
-      - label: Images et vidéos
+      - label: Images
         name: images
         widget: list
         required: false
         summary: "{{legend}}"
         fields:
-          - {
-              label: Fichier,
-              name: fichier,
-              widget: file,
-              hint: "Image (webp, jpg, png). Pour une vidéo MP4, déposer le fichier dans src/public/videos/ (pas dans images/, le CMS local ne peut pas lister les gros fichiers).",
-            }
+          - { label: Image, name: fichier, widget: image }
           - { label: Légende, name: legend, widget: string, required: false }
       - label: Client·e·s
         name: clients

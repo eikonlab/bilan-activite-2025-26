@@ -105,21 +105,10 @@ layout: base.njk
         {% for media in projet.images %}
           {% if media.fichier %}
             <figure class="projet-page-images" data-pos="{{ loop.index }}">
-              {% if media.fichier | isVideo %}
-                <video
-                  controls
-                  playsinline
-                  preload="metadata"
-                  {% if media.legend %}title="{{ media.legend }}"{% endif %}
-                >
-                  <source src="{{ media.fichier | url }}" type="video/mp4" />
-                </video>
-              {% else %}
-                <img
-                  src="{{ media.fichier | url }}"
-                  alt="{{ media.legend or '' }}"
-                />
-              {% endif %}
+              <img
+                src="{{ media.fichier | url }}"
+                alt="{{ media.legend or '' }}"
+              />
               {% if media.legend %}
                 <div class="projet-page-images-caption">
                   <p>{{ media.legend }}</p>

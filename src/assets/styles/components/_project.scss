@@ -204,8 +204,7 @@
     }
   }
 
-  &-images img,
-  &-images video {
+  &-images img {
     grid-column: 1 / -1;
     grid-row: span 4;
     width: 100%;
@@ -379,8 +378,7 @@
       }
     }
 
-    &-images img,
-    &-images video {
+    &-images img {
       grid-column: 1 / -1;
       grid-row: span 6;
     }
