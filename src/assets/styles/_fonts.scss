@@ -1,35 +1,26 @@
 @font-face {
   font-family: "Noi Grotesk";
-  src: url("../../public/fonts/NoiGrotesk-ThinItalic.woff2") format("woff2");
+  src: url("../../public/fonts/NoiGrotesk-ThinItalic.woff2") format("woff2"),
+    url("../../public/fonts/NoiGrotesk-ThinItalic.woff") format("woff");
   font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Noi Grotesk";
-  src: url("../../public/fonts/NoiGrotesk-ThinItalic.woff") format("woff");
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "Noi Grotesk";
-  src: url("../../public/fonts/NoiGrotesk-UltraLight.woff2") format("woff2");
+  src: url("../../public/fonts/NoiGrotesk-UltraLight.woff2") format("woff2"),
+    url("../../public/fonts/NoiGrotesk-UltraLight.woff") format("woff");
   font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Noi Grotesk";
-  src: url("../../public/fonts/NoiGrotesk-UltraLight.woff") format("woff");
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: "Noi Grotesk";
-  src: url("../../public/fonts/NoiGrotesk-MediumItalic.woff2") format("woff2");
+  src: url("../../public/fonts/NoiGrotesk-MediumItalic.woff2") format("woff2"),
+    url("../../public/fonts/NoiGrotesk-MediumItalic.woff") format("woff");
   font-weight: 500;
-}
-
-@font-face {
-  font-family: "Noi Grotesk";
-  src: url("../../public/fonts/NoiGrotesk-MediumItalic.woff") format("woff");
-  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
 }
