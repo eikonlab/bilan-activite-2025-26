@@ -1,18 +1,9 @@
 {
-  "title": "SCNAT",
-  "thumbnail": "/public/images/Project_Scnat_02.webp",
-  "description": "L’Akademie der Naturwissenschaften Schweiz (SCNAT) · Plattform Biologie a pris contact avec eikonlab pour la création d’une série de 8 portraits de métiers qui doivent s'adresser aux titulaires d'une maturité et aux étudiants en biologie et en sciences de l'environnement (bachelor et master) de toute la Suisse. Il s'agit de leur présenter des professions pour lesquelles des connaissances approfondies des espèces sont nécessaires. \nLes portraits sont établis sur la base de d’interviews vidéo, avec un aperçu de l'environnement de travail ou des tâches typiques de la personne. Les réalisations finales intègrent également de nombreuses illustrations réalisées et animées par les stagiaires.",
-  "tags": [
-    "Vidéo didactique",
-    "Mise en scène",
-    "Interviews"
-  ],
-  "sessions": [
-    "Printemps 2025",
-    "Automne 2025",
-    "Hiver 2026"
-  ],
+  "skills": "Tournage vidéo, illustrations, animation, collaboration professionnelle",
   "mandate": "Interviews vidéo et habillage par des illustrations animées ",
+  "thumbnail": "/public/images/Project_Scnat_02.webp",
+  "order": 5,
+  "title": "SCNAT",
   "images": [
     {
       "fichier": "/public/images/Project_Scnat_01.webp",
@@ -25,8 +16,25 @@
     {
       "fichier": "/public/images/Project_Scnat_03.webp",
       "legend": "Extraits de la série d’illustrations réalisées pour accompagner les interviews"
+    },
+    {
+      "hls": "https://play.vod2.infomaniak.com/hls/1jijk03unnz4q/1jhvl2upwql6y/,1jijk03unnz5c,1jijk03unnz5a,1jijk03unnz58,1jijk03unnz56,.urlset/manifest.m3u8",
+      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnz5j.jpg"
+    },
+    {
+      "hls": "https://play.vod2.infomaniak.com/hls/1jijk03unnyz8/1jhvl2upwql6y/,1jijk03unnyzl,1jijk03unnyzj,1jijk03unnyzh,1jijk03unnyzf,.urlset/manifest.m3u8",
+      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnyzw.jpg"
     }
   ],
-  "skills": "Tournage vidéo, illustrations, animation, collaboration professionnelle",
-  "order": 5
+  "tags": [
+    "Vidéo didactique",
+    "Mise en scène",
+    "Interviews"
+  ],
+  "description": "L’Akademie der Naturwissenschaften Schweiz (SCNAT) · Plattform Biologie a pris contact avec eikonlab pour la création d’une série de 8 portraits de métiers qui doivent s'adresser aux titulaires d'une maturité et aux étudiants en biologie et en sciences de l'environnement (bachelor et master) de toute la Suisse. Il s'agit de leur présenter des professions pour lesquelles des connaissances approfondies des espèces sont nécessaires. \nLes portraits sont établis sur la base de d’interviews vidéo, avec un aperçu de l'environnement de travail ou des tâches typiques de la personne. Les réalisations finales intègrent également de nombreuses illustrations réalisées et animées par les stagiaires.",
+  "sessions": [
+    "Printemps 2025",
+    "Automne 2025",
+    "Hiver 2026"
+  ]
 }

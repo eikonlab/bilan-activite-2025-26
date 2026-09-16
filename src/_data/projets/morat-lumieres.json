@@ -8,6 +8,7 @@
     "Minus3"
   ],
   "thumbnail": "/public/images/Project_Morat-Lumiere_02.webp",
+  "order": 3,
   "title": "Morat Lumières - EMF130 ans",
   "images": [
     {
@@ -21,6 +22,10 @@
     {
       "fichier": "/public/images/Project_Morat-Lumiere_02.webp",
       "legend": "Installation au coeur de la ville de Morat à l’occasion de Festival des Lumières. Morat, janvier 2026"
+    },
+    {
+      "hls": "https://play.vod2.infomaniak.com/hls/1jijk03unnz28/1jhvl2upwql6y/,1jijk03unnz2m,1jijk03unnz2k,1jijk03unnz2i,1jijk03unnz2g,.urlset/manifest.m3u8",
+      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnzuy.jpg"
     }
   ],
   "tags": [
@@ -43,6 +48,5 @@
   "sessions": [
     "Automne 2025",
     "Hiver 2026"
-  ],
-  "order": 3
+  ]
 }
