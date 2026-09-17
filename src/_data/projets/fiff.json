@@ -1,10 +1,18 @@
 {
   "skills": "Conception, production et réalisation d’une séquence filmique, storytelling, travail avec l’agence de communication du FIFF Volontiers.",
   "mandate": "Conception, production et réalisation d’un trailer vidéo",
-  "clients": ["FIFF"],
+  "clients": [
+    "FIFF"
+  ],
   "thumbnail": "/public/images/Hero-image-thumbnail.webp",
+  "order": 7,
   "title": "FIFF",
   "images": [
+    {
+      "hls": "https://play.vod2.infomaniak.com/hls/1jijk03unnyy1/1jhvl2upwql6y/,1jijk03unnyyc,1jijk03unnyya,1jijk03unnyy8,1jijk03unnyy6,.urlset/manifest.m3u8",
+      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnyyn.jpg",
+      "legend": "Prégénérique FIFF édition 2026"
+    },
     {
       "fichier": "/public/images/Project_Fiff_03.webp",
       "legend": "Tournage du pré-générique du FIFF dans les salles du Rex. Fribourg, décembre 2025"
@@ -16,14 +24,13 @@
     {
       "fichier": "/public/images/Project_Fiff_04.webp",
       "legend": "Annonce presse dans le catalogue du FIFF 2026"
-    },
-    {
-      "hls": "https://play.vod2.infomaniak.com/hls/1jijk03unnyy1/1jhvl2upwql6y/,1jijk03unnyyc,1jijk03unnyya,1jijk03unnyy8,1jijk03unnyy6,.urlset/manifest.m3u8",
-      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnyyn.jpg",
-      "legend": "Pré-générique du FIFF 2026"
     }
   ],
-  "tags": ["Communication visuelle", "Bande-annonce", "Projection publique"],
+  "tags": [
+    "Communication visuelle",
+    "Bande-annonce",
+    "Projection publique"
+  ],
   "links": [
     {
       "label": "FIFF",
@@ -40,6 +47,8 @@
   ],
   "id": "fiff",
   "description": "Pour la 13e année consécutive, eikonlab réalise le prégénérique du FIFF. Il s’agit de concevoir une séquence de 1 min 20 s pour mettre en valeur le public qui a fidèlement suivi le Festival durant 40 ans. L’agence « Volontiers », en charge de la communication du FIFF, est impliquée dans les discussions. La séquence est diffusée à l’ouverture de chaque projection de film, elle offre ainsi une visibilité record pour les 40 000 spectateur·trice·s enregistré·e·s par le festival.\nLe prégénérique transforme la salle de cinéma en un espace vivant, témoin de quarante années d’émotions partagées. À travers une succession de plans fixes et un jeu de superpositions visuelles, spectatrices et spectateurs apparaissent comme des présences presque fantomatiques, exprimant rires, larmes et sursauts. Les temporalités se mêlent, comme si plusieurs séances coexistaient dans un même lieu, faisant de la salle une mémoire collective en mouvement.",
-  "sessions": ["Automne 2025", "Hiver 2026"],
-  "order": 7
+  "sessions": [
+    "Automne 2025",
+    "Hiver 2026"
+  ]
 }

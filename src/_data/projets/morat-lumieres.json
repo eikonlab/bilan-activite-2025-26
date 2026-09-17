@@ -25,7 +25,8 @@
     },
     {
       "hls": "https://play.vod2.infomaniak.com/hls/1jijk03unnz28/1jhvl2upwql6y/,1jijk03unnz2m,1jijk03unnz2k,1jijk03unnz2i,1jijk03unnz2g,.urlset/manifest.m3u8",
-      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnzuy.jpg"
+      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnzuy.jpg",
+      "legend": "Aftershow - \"Déclic\" au Festival des lumières 2026"
     }
   ],
   "tags": [

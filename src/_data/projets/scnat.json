@@ -19,11 +19,13 @@
     },
     {
       "hls": "https://play.vod2.infomaniak.com/hls/1jijk03unnz4q/1jhvl2upwql6y/,1jijk03unnz5c,1jijk03unnz5a,1jijk03unnz58,1jijk03unnz56,.urlset/manifest.m3u8",
-      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnz5j.jpg"
+      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnz5j.jpg",
+      "legend": "Portrait 3/8. Adrienne Frei"
     },
     {
       "hls": "https://play.vod2.infomaniak.com/hls/1jijk03unnyz8/1jhvl2upwql6y/,1jijk03unnyzl,1jijk03unnyzj,1jijk03unnyzh,1jijk03unnyzf,.urlset/manifest.m3u8",
-      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnyzw.jpg"
+      "poster": "https://api.infomaniak.com/2/vod/res/thumbnails/1jijk03unnyzw.jpg",
+      "legend": "Portrait 7/8, Alain Reymond"
     }
   ],
   "tags": [
