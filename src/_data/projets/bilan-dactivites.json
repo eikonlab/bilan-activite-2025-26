@@ -1,9 +1,7 @@
 {
   "skills": "Architecture de l’information, design graphique, typographie, structuration de contenu, adaptation au contexte professionnel.",
   "mandate": "Site web",
-  "clients": [
-    "eikonlab, Fribourg"
-  ],
+  "clients": ["eikonlab, Fribourg"],
   "thumbnail": "/public/images/Project_Bilan_01.webp",
   "order": 14,
   "title": "Bilan d’activités",
@@ -29,16 +27,9 @@
       "legend": "Trois cerveaux, des milliers de lignes de code, zéro pause"
     }
   ],
-  "tags": [
-    "Communication digitale",
-    "Éditorial",
-    "UI design"
-  ],
+  "tags": ["Communication digitale", "Éditorial", "UI design"],
   "links": [],
   "id": "bilan-dactivites",
-  "description": "Pour la première fois le bilan d’activité de eikonlab est conçu pour être publié en ligne, , permettant de mettre en oeuvre l’ensemble des compétences des élèves IMD. Une équipe de trois stagiaires avaient une carte planche, de la conception à la réalisation.",
-  "sessions": [
-    "Hiver 2026",
-    "Printemps 2026"
-  ]
+  "description": "Pour la première fois le bilan d’activité de eikonlab est conçu pour être publié en ligne, permettant de mettre en oeuvre l’ensemble des compétences des élèves IMD. Une équipe de trois stagiaires avaient une carte planche, de la conception à la réalisation.",
+  "sessions": ["Hiver 2026", "Printemps 2026"]
 }
