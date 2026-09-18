@@ -177,6 +177,10 @@
     p + p {
       margin-top: 1em;
     }
+
+    a {
+      font-size: inherit;
+    }
   }
 
   &-description-legend {

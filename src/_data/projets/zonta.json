@@ -37,13 +37,8 @@
     "Communication sociale",
     "Dispositif participatif"
   ],
-  "links": [
-    {
-      "label": "Microsite du projet",
-      "url": "https://zonta-2025.eikon.ch/"
-    }
-  ],
+  "links": [],
   "id": "zonta",
-  "description": "Pour marquer la Journée internationale pour l’élimination de la violence à l’égard des femmes et le début des \"Orange Days\", les clubs service Zonta et Soroptimist de Fribourg organisent une action commune avec l’Association Victime pas seule qui propose d’installer un sapin porte-paroles dans plusieurs villes de Suisse. eikonlab est mandaté pour designer le sapin et développer un concept d’interaction avec la population. Après avoir déterminé un lieu particulièrement passager (le Hall de la gare de Fribourg), l’option est prise d’une installation interactive grâce à laquelle les passants sont invités à scanner un QR code et à laisser un mot de soutien, une pensée ou une inspiration pour les victimes. Après avoir passé le test de la médiation, les messages défilent sur un écran.",
+  "description": "Pour marquer la Journée internationale pour l’élimination de la violence à l’égard des femmes et le début des \"Orange Days\", les clubs service Zonta et Soroptimist de Fribourg organisent une action commune avec l’Association Victime pas seule qui propose d’installer un sapin porte-paroles dans plusieurs villes de Suisse. eikonlab est mandaté pour designer le sapin et développer un concept d’interaction avec la population. Après avoir déterminé un lieu particulièrement passager (le Hall de la gare de Fribourg), l’option est prise d’une installation interactive grâce à laquelle les passants sont invités à scanner un QR code et à laisser un mot de soutien, une pensée ou une inspiration pour les victimes. Après avoir passé le test de la médiation, les messages défilent sur un écran.<br><br><a href=\"https://zonta-2025.eikon.ch/\" target=\"_blank\">Voir le microsite du projet</a>",
   "sessions": ["Automne 2025"]
 }
