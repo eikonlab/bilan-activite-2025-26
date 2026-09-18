@@ -46,6 +46,7 @@
   flex-direction: column;
   color: $color-primary;
   background-color: $color-secondary;
+  overflow-y: auto;
   h3 {
     padding: 0;
     font-size: 3rem;
@@ -76,19 +77,31 @@
 .biography-middle-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: $space-lg;
   margin-top: $space-xl;
-  height: 80%;
 }
 
 .biography-middle-top-content {
   display: flex;
   flex-direction: column;
-  gap: 100%;
+  gap: $space-lg;
 }
 
 .biography-card-element {
   display: flex;
+  min-width: 0;
+  width: 100%;
+
+  figure,
+  .biography-info {
+    flex: 1 1 50%;
+    min-width: 0;
+  }
+
+  figure {
+    margin: 0;
+    overflow: hidden;
+  }
 }
 
 .biography-close-modal {
@@ -152,12 +165,11 @@ article.biography-popup {
 
   .biography-middle-content {
     margin-top: 25px;
-    gap: 60px;
-    height: 100%;
+    gap: $space-lg;
   }
 
   .biography-middle-top-content {
-    gap: 15px;
+    gap: $space-md;
   }
 
   .biography-card-element {
