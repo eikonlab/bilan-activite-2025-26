@@ -10,7 +10,7 @@
     "dev:cms": "decap-server",
     "dev:sass": "sass src/assets/styles/main.scss:_site/assets/styles/main.css --watch --no-source-map",
     "dev:js": "esbuild src/assets/js/main.js --bundle --outdir=_site/assets/js --watch=forever --format=esm --splitting --chunk-names=chunks/[name]-[hash]",
-    "build": "rm -rf _site && NODE_ENV=production eleventy && sass src/assets/styles/main.scss _site/assets/styles/main.css --no-source-map --style=compressed && esbuild src/assets/js/main.js --bundle --outdir=_site/assets/js --format=esm --minify --splitting --chunk-names=chunks/[name]-[hash]"
+    "build": "rm -rf _site && NODE_ENV=production PATH_PREFIX=/2026/ eleventy && sass src/assets/styles/main.scss _site/assets/styles/main.css --no-source-map --style=compressed && esbuild src/assets/js/main.js --bundle --outdir=_site/assets/js --format=esm --minify --splitting --chunk-names=chunks/[name]-[hash]"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
