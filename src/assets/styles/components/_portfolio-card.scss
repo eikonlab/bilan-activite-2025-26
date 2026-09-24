@@ -23,25 +23,24 @@
 
 .portfolio-card-text {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  position: relative;
+  align-items: stretch;
+  gap: 6px;
   padding: $space-md;
-  padding-bottom: calc(#{$space-md} + 1.25rem);
   cursor: default;
 
   p {
     color: $color-primary;
     font-style: $font-style-legend;
+    margin: 0;
   }
 }
 
 .portfolio-quote-legend {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  position: static;
   width: 100%;
-  padding: 6px 9px;
+  padding: 0;
   text-align: right;
   font-size: 0.5rem;
   font-weight: $font-weight-legend;
@@ -95,6 +94,7 @@ article.portfolio-card {
 
     figcaption {
       width: 100%;
+      margin-right: 18px;
     }
   }
 }
