@@ -22,14 +22,9 @@
     "Ligne éditoriale",
     "Diffusion live"
   ],
-  "links": [
-    {
-      "label": "Chaine eikon.live",
-      "url": "https://www.twitch.tv/eikonlive"
-    }
-  ],
+  "links": [],
   "id": "twitch",
-  "description": "Suite à l’analyse des canaux de diffusion actuels et à l’expérience des Journées Portes Ouvertes 2022, eikonlab développe une programmation régulière pour la chaîne Twitch de l’école.\nAu-delà de l’enjeu pédagogique et technique pour les stagiaires, ce choix relève d’une stratégie en termes d’objectifs de communication (attirer de futur.e.s candidat.e.s, être une institution de référence quant aux métiers d’IMD, transmettre des valeurs, entretenir la relation avec notre environne-ment professionnel).\nLes formats sont organisés autour de différentes collections.<br><br><a href=\"https://youtu.be/lzudqzJSYZ8?si=-6Q3iBzPwNUGiS-s\" target=\"_blank\">eikonlive - Table Ronde - Bilan et impact de l'IA</a>",
+  "description": "Suite à l’analyse des canaux de diffusion actuels et à l’expérience des Journées Portes Ouvertes 2022, eikonlab développe une programmation régulière pour la chaîne Twitch de l’école.\nAu-delà de l’enjeu pédagogique et technique pour les stagiaires, ce choix relève d’une stratégie en termes d’objectifs de communication (attirer de futur.e.s candidat.e.s, être une institution de référence quant aux métiers d’IMD, transmettre des valeurs, entretenir la relation avec notre environne-ment professionnel).\nLes formats sont organisés autour de différentes collections.<br><br><a href=\"https://youtu.be/lzudqzJSYZ8?si=-6Q3iBzPwNUGiS-s\" target=\"_blank\">eikonlive - Table Ronde - Bilan et impact de l'IA</a><br><br><a href=\"https://www.twitch.tv/eikonlive\" target=\"_blank\">Chaine eikon.live</a>",
   "sessions": [
     "Automne 2025",
     "Hiver 2026",
