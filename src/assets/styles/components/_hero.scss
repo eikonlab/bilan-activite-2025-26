@@ -201,9 +201,12 @@
       display: flex;
       gap: 0px;
       span {
-        opacity: 0;
-        font-size: 0;
-        cursor: default;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip-path: inset(50%);
+        white-space: nowrap;
       }
       p {
         text-align: left;
@@ -526,6 +529,15 @@
       &-eikonlab {
         font-size: clamp(42px, 10vw, 62px);
         padding: 8px;
+      }
+
+      &-eikonlab {
+        h1 {
+          font-size: min(2.75rem, 15vw);
+        }
+        p {
+          margin-left: max(0px, min(55px, 100% - 195px));
+        }
       }
 
       &-encadrants {
