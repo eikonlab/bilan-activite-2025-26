@@ -31,7 +31,9 @@ export default function (eleventyConfig) {
   // `breaks: true` transforme un retour à la ligne simple en <br>
   // (Entrée dans le champ description d’un projet).
   // Le filtre | safe est nécessaire pour que Nunjucks n'échappe pas le HTML généré.
-  eleventyConfig.addFilter("markdown", (content) => md.render(content ?? ""));
+  eleventyConfig.addFilter("markdown", (content) =>
+    md.render((content ?? "").replace(/\n\n/g, "<br><br>")),
+  );
 
   // --- Filtre JSON pour Nunjucks ---
   // Permet d'utiliser {{ value | tojson }} dans les templates.

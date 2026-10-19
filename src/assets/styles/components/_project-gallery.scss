@@ -104,6 +104,7 @@
 @media (max-width: 768px) {
   .project-gallery {
     grid-auto-rows: calc(min(100vw, 1500px) / 6);
+    grid-template-rows: auto;
 
     &-title {
       grid-column: 1 / -1;
@@ -116,10 +117,10 @@
       aspect-ratio: auto;
 
       &[data-pos="1"] {
-        grid-row: 3 / span 6;
+        grid-row: 2 / span 6;
       }
       &[data-pos="2"] {
-        grid-row: 9 / span 6;
+        grid-row: 8 / span 6;
       }
     }
 
